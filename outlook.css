@@ -1,0 +1,47 @@
+div.docket {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+div.docket > div {
+  flex: 1; 
+}
+
+div.day {
+  margin: 1px 1px 1px 1px;
+  height: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+
+div.day div.header {
+    background-color: #ccd;
+    padding: 3px;
+    overflow: auto;
+}
+
+div.day .title {
+    float: left;
+    margin: 2px;
+    /* margin-bottom: 2px; */
+}
+
+div.day .badge {
+    float: right;
+    background-color: #77a;
+	  font-size: 8pt;
+	  font-weight: bold;
+    color:#fff;
+    margin: 2px;
+    padding: 3px;
+}
+
+div.day .content {
+    padding: 5px;
+    padding-left: 8px;
+}
