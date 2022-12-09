@@ -1,8 +1,10 @@
 @font-face {
     font-family: Gidole-Regular;
     src: url("https://bheberlein.github.io/font/Gidole-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
-    color: blue;
+    color: cyan;
 }
