@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "Arial", Sans-Serif;
-    font-weight: normal;
+    font-family: "Arial", "Helvetica", Sans-Serif;
+    font-weight: bold;
     font-style: normal;
 }
 
 * {
-    color: cyan;
+    color: magenta;
 }
