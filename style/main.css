@@ -5,10 +5,22 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Gidolinya";
+    src: url("https://bheberlein.github.io/font/Gidolinya-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     align: center;
     text-align: center;
     color: black;
     font-family: "Gidole", Sans-Serif;
     font-weight: 200;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Gidolinya";
+    color: #aaa;
 }
