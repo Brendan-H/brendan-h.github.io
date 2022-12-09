@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Gidole";
-    src: url("./font/Gidole-Regular.ttf") format("truetype");
+    src: url("https://bheberlein.gtihub.io/font/Gidole-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 * {
-    color: purple;
+    color: magenta;
     font-family: "Gidole", Sans-Serif;
 }
